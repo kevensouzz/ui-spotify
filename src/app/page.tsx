@@ -26,7 +26,7 @@ export default function Home() {
               Create Playlist
             </a>
             <a href="" className="flex gap-3">
-            <Heart size={18} />
+              <Heart size={18} />
               Liked Songs
             </a>
           </div>
