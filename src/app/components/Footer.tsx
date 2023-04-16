@@ -1,4 +1,6 @@
-import { Shuffle, SkipBack, PlayIcon, SkipForward, Repeat, Mic2, LayoutList, Laptop2, Volume2, Maximize2 } from "lucide-react";
+"use client"
+import { Play } from "@phosphor-icons/react";
+import { Shuffle, SkipBack, SkipForward, Repeat, Mic2, LayoutList, Laptop2, Volume2, Maximize2 } from "lucide-react";
 import Image from "next/image";
 
 export default function Footer() {
@@ -17,8 +19,8 @@ export default function Footer() {
         <div className="flex items-center gap-2">
           <Shuffle size={18} className="text-zinc-200" />
           <SkipBack size={18} className="text-zinc-200" />
-          <button className="w-6 h-6 flex items-center justify-center pl-1 rounded-full bg-white text-black">
-            <PlayIcon />
+          <button className="w-6 h-6 flex items-center justify-center rounded-full bg-white text-black">
+          <Play size={18} weight="fill" />
           </button>
           <SkipForward size={18} className="text-zinc-200" />
           <Repeat size={18} className="text-zinc-200" />
