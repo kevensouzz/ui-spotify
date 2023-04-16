@@ -137,8 +137,6 @@ export default function Home() {
               <strong className="font-semibold pt-1">TÍTULO</strong>
               <span className="text-sm text-zinc-400">artístas</span>
             </a>
-
-
           </div>
         </main>
       </div>
