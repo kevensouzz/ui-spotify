@@ -1,5 +1,3 @@
-import { Laptop2, LayoutList, Maximize2, Mic2 } from "lucide-react"
-import { Volume2 } from "lucide-react"
 import { ChevronLeft, ChevronRight, PlayIcon, Shuffle, SkipBack, SkipForward, Repeat } from "lucide-react"
 import Image from "next/image"
 import Sidebar from "./components/Sidebar"
