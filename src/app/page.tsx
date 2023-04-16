@@ -1,11 +1,12 @@
-import { Home as HomeIcon, Search, Library, BookmarkPlus, Heart } from "lucide-react"
+import { Home as HomeIcon, Search, Library, BookmarkPlus, Heart, ChevronLeft, ChevronRight, PlayIcon } from "lucide-react"
+import Image from "next/image"
 
 export default function Home() {
   return (
     <div className="h-screen flex flex-col">
       <div className="flex flex-1">
         <aside className="w-72 bg-zinc-950 p-6">
-          <nav className="space-y-5">
+          <nav className="space-y-4">
             <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
               <HomeIcon size={18} />
               Home
@@ -46,7 +47,62 @@ export default function Home() {
         </aside>
 
         <main className="flex-1 p-6">
-          main
+          <div className="flex items-center gap-4">
+            <button className="rounded-full bg-black/40 p-1">
+              <ChevronLeft />
+            </button>
+
+            <button className="rounded-full bg-black/40 p-1">
+              <ChevronRight />
+            </button>
+          </div>
+
+          <h1 className="font-semibold text-3xl mt-8">Good Night</h1>
+
+          <div className="grid grid-cols-3 gap-4 mt-4">
+            <a href="#" target="_blank" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
+              <Image src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={75} height={75} />
+              <strong>ALBÚM</strong>
+              <button className="w-8 h-8 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible">
+                <PlayIcon />
+              </button>
+            </a>
+            <a href="#" target="_blank" className="bg-white/5 rounded group flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
+              <Image src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={75} height={75} />
+              <strong>ALBÚM</strong>
+              <button className="w-8 h-8 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible">
+                <PlayIcon />
+              </button>
+            </a>
+            <a href="#" target="_blank" className="bg-white/5 rounded group flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
+              <Image src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={75} height={75} />
+              <strong>ALBÚM</strong>
+              <button className="w-8 h-8 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible">
+                <PlayIcon />
+              </button>
+            </a>
+            <a href="#" target="_blank" className="bg-white/5 rounded group flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
+              <Image src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={75} height={75} />
+              <strong>ALBÚM</strong>
+              <button className="w-8 h-8 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible">
+                <PlayIcon />
+              </button>
+            </a>
+            <a href="#" target="_blank" className="bg-white/5 rounded group flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
+              <Image src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={75} height={75} />
+              <strong>ALBÚM</strong>
+              <button className="w-8 h-8 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible">
+                <PlayIcon />
+              </button>
+            </a>
+            <a href="#" target="_blank" className="bg-white/5 rounded group flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
+              <Image src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={75} height={75} />
+              <strong>ALBÚM</strong>
+              <button className="w-8 h-8 flex items-center justify-center pl-1 rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible">
+                <PlayIcon />
+              </button>
+            </a>
+          </div>
         </main>
       </div>
 
