@@ -46,7 +46,7 @@ export default function Home() {
 
         </aside>
 
-        <main className="flex-1 p-6">
+        <main className="flex-1 p-5">
           <div className="flex items-center gap-4">
             <button className="rounded-full bg-black/40 p-1">
               <ChevronLeft />
@@ -106,6 +106,40 @@ export default function Home() {
 
           <h2 className="font-semibold text-2xl mt-8">Made for Keven Souza</h2>
 
+          <div className="grid grid-cols-8 gap-4 mt-4">
+
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-1 hover:bg-white/10 ">
+              <Image className="w-full" src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={104} height={104} />
+              <strong className="font-semibold pt-1">TÍTULO</strong>
+              <span className="text-sm text-zinc-400">artístas</span>
+            </a>
+
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-1 hover:bg-white/10 ">
+              <Image className="w-full" src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={104} height={104} />
+              <strong className="font-semibold pt-1">TÍTULO</strong>
+              <span className="text-sm text-zinc-400">artístas</span>
+            </a>
+
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-1 hover:bg-white/10 ">
+              <Image className="w-full" src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={104} height={104} />
+              <strong className="font-semibold pt-1">TÍTULO</strong>
+              <span className="text-sm text-zinc-400">artístas</span>
+            </a>
+
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-1 hover:bg-white/10 ">
+              <Image className="w-full" src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={104} height={104} />
+              <strong className="font-semibold pt-1">TÍTULO</strong>
+              <span className="text-sm text-zinc-400">artístas</span>
+            </a>
+
+            <a href="#" className="bg-white/5 p-3 rounded-md flex flex-col gap-1 hover:bg-white/10 ">
+              <Image className="w-full" src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={104} height={104} />
+              <strong className="font-semibold pt-1">TÍTULO</strong>
+              <span className="text-sm text-zinc-400">artístas</span>
+            </a>
+
+
+          </div>
         </main>
       </div>
 
