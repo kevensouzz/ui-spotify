@@ -57,7 +57,7 @@ export default function Home() {
             </button>
           </div>
 
-          <h1 className="font-semibold text-3xl mt-8">Good Night</h1>
+          <h1 className="font-semibold text-3xl mt-5">Good Night</h1>
 
           <div className="grid grid-cols-3 gap-4 mt-4">
             <a href="#" target="_blank" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
@@ -103,6 +103,9 @@ export default function Home() {
               </button>
             </a>
           </div>
+
+          <h2 className="font-semibold text-2xl mt-8">Made for Keven Souza</h2>
+
         </main>
       </div>
 
