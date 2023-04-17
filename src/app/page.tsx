@@ -29,7 +29,7 @@ export default function Home() {
 
           <div className="grid grid-cols-7 gap-4 mt-4">
             <Playlist image={"/musics/neonblade.jpeg"} alt={"phonkhouse"} nome={"phonkhouse"} user={"macelinh201625"} />
-            <Playlist image={""} alt={""} nome={""} user={""} />
+            <Playlist image={"/musics/afterdark.jpeg"} alt={"AESTHETICS"} nome={"AESTHETICS"} user={"K1ng4sth3tics"} />
             <Playlist image={""} alt={""} nome={""} user={""} />
             <Playlist image={""} alt={""} nome={""} user={""} />
             <Playlist image={""} alt={""} nome={""} user={""} />
