@@ -2,13 +2,16 @@
 import { Play } from "@phosphor-icons/react";
 import Image from "next/image";
 
-export default function Album() {
+export default function Album(prop: { name: string; artist: string; image: string; alt: string}) {
   return (
-    <a href="" className="bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors">
-      <Image src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={75} height={75} />
-      <strong>ALBÚM</strong>
-      <button className="w-8 h-8 flex items-center justify-center rounded-full bg-green-500 text-black ml-auto mr-8 invisible group-hover:visible">
-        <Play size={20} weight="fill" />
+    <a href="#" className="bg-white/5 group rounded flex items-center gap-2 overflow-hidden hover:bg-white/10 transition-colors">
+      <Image src={prop.image} alt={prop.alt} width={75} height={75} />
+      <div className="flex flex-col">
+        <strong className="text-sm">{prop.name}</strong>
+        <span className="text-xs font-light">{prop.artist}</span>
+      </div>
+      <button className="w-10 h-10 flex items-center justify-center rounded-full bg-green-500 text-black ml-auto mr-5 invisible group-hover:visible">
+        <Play size={22} weight="fill" />
       </button>
     </a>
   )

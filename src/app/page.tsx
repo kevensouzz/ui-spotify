@@ -4,6 +4,7 @@ import ChevronButtons from "./components/ChevronButtons"
 import Album from "./components/Album"
 import Playlist from "./components/Playlist"
 
+
 export default function Home() {
   return (
     <div className="h-screen flex flex-col">
@@ -16,12 +17,12 @@ export default function Home() {
           <h1 className="font-semibold text-3xl mt-5">Last Songs You Heard</h1>
 
           <div className="grid grid-cols-3 gap-4 mt-4">
-            <Album />
-            <Album />
-            <Album />
-            <Album />
-            <Album />
-            <Album />
+            <Album name="Smells Like Teen Spirit" image={"/nevermind.jpg"} alt={"Smells Like Teen Spirit"} artist={"Nirvana"} />
+            <Album name="Something In The Way" image={"/nevermind.jpg"} alt={"Something In The Way"} artist={"Nirvana"} />
+            <Album name="Loverboy" image={"/loverboy.jpg"} alt={"Loverboy"} artist={"A-Wall"} />
+            <Album name="SPIT IN MY FACE!" image={"/spitinmyface.jpg"} alt={"SPIT IN MY FACE!"} artist={"ThxSoMch"} />
+            <Album name="Hesitations (Acoustic)" image={"/hesitations.jpeg"} alt={"Hesitations (Acoustic)"} artist={"LRN Slime, CORBAL e Shiloh Dynasty"} />
+            <Album name="Notion (Acoustic)" image={"/notionac.jpeg"} alt={"Notion (Acoustic)"} artist={"The Rare Occasions"} />
           </div>
 
           <h2 className="font-semibold text-2xl mt-8">Made For You</h2>
