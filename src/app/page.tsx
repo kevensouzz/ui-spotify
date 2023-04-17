@@ -27,15 +27,14 @@ export default function Home() {
 
           <h2 className="font-semibold text-2xl mt-8">Made For You</h2>
 
-          <div className="grid grid-cols-8 gap-4 mt-4">
-            <Playlist />
-            <Playlist />
-            <Playlist />
-            <Playlist />
-            <Playlist />
-            <Playlist />
-            <Playlist />
-            <Playlist />
+          <div className="grid grid-cols-7 gap-4 mt-4">
+            <Playlist image={"/musics/neonblade.jpeg"} alt={"phonkhouse"} nome={"phonkhouse"} user={"macelinh201625"} />
+            <Playlist image={""} alt={""} nome={""} user={""} />
+            <Playlist image={""} alt={""} nome={""} user={""} />
+            <Playlist image={""} alt={""} nome={""} user={""} />
+            <Playlist image={""} alt={""} nome={""} user={""} />
+            <Playlist image={""} alt={""} nome={""} user={""} />
+            <Playlist image={""} alt={""} nome={""} user={""} />
           </div>
         </main>
       </div>
