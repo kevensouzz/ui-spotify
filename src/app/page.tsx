@@ -1,7 +1,7 @@
 import Sidebar from "./components/Sidebar"
 import Footer from "./components/Footer"
 import ChevronButtons from "./components/ChevronButtons"
-import Album from "./components/Album"
+import Album from "./components/LatestSongs"
 import Playlist from "./components/Playlist"
 
 
@@ -30,11 +30,11 @@ export default function Home() {
           <div className="grid grid-cols-7 gap-4 mt-4">
             <Playlist image={"/musics/neonblade.jpeg"} alt={"phonkhouse"} nome={"phonkhouse"} user={"macelinh201625"} />
             <Playlist image={"/musics/afterdark.jpeg"} alt={"AESTHETICS"} nome={"AESTHETICS"} user={"K1ng4sth3tics"} />
-            <Playlist image={""} alt={""} nome={""} user={""} />
-            <Playlist image={""} alt={""} nome={""} user={""} />
-            <Playlist image={""} alt={""} nome={""} user={""} />
-            <Playlist image={""} alt={""} nome={""} user={""} />
-            <Playlist image={""} alt={""} nome={""} user={""} />
+            <Playlist image={"/musics/cha.jpeg"} alt={"aql vibezinha"} nome={"aql vibezinha"} user={"manosemnome123"} />
+            <Playlist image={"/musics/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/musics/bandoleiro.jpeg"} alt={"\")"} nome={"\")"} user={"lilSkay88"} />
+            <Playlist image={"/musics/chegadefalardeice.jpeg"} alt={"slowmo"} nome={"slowmo"} user={"artz7"} />
+            <Playlist image={"/musics/midnight.jpeg"} alt={"light weight baby!"} nome={"light weight baby!"} user={"mano dos veneno"} />
           </div>
         </main>
       </div>
