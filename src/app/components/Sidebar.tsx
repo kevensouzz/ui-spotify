@@ -1,4 +1,5 @@
 import { HomeIcon, Search, Library, BookmarkPlus, Heart } from "lucide-react";
+import MyPLaylist from "./MyPlaylist";
 
 export default function Sidebar() {
   return (
@@ -30,15 +31,9 @@ export default function Sidebar() {
       </div>
 
       <nav className="mt-6 pt-6 border-t border-zinc-800 flex flex-col gap-3">
-        <a href="" className="text-sm text-zinc-400 px-2 hover:text-zinc-100">PLAYLIST 1</a>
-        <a href="" className="text-sm text-zinc-400 px-2 hover:text-zinc-100">PLAYLIST 2</a>
-        <a href="" className="text-sm text-zinc-400 px-2 hover:text-zinc-100">PLAYLIST 3</a>
-        <a href="" className="text-sm text-zinc-400 px-2 hover:text-zinc-100">PLAYLIST 4</a>
-        <a href="" className="text-sm text-zinc-400 px-2 hover:text-zinc-100">PLAYLIST 5</a>
-        <a href="" className="text-sm text-zinc-400 px-2 hover:text-zinc-100">PLAYLIST 6</a>
-        <a href="" className="text-sm text-zinc-400 px-2 hover:text-zinc-100">PLAYLIST 7</a>
-        <a href="" className="text-sm text-zinc-400 px-2 hover:text-zinc-100">PLAYLIST 8</a>
-        <a href="" className="text-sm text-zinc-400 px-2 hover:text-zinc-100">PLAYLIST 9</a>
+        <MyPLaylist nome="PHONK ESTRALANDO" />
+        <MyPLaylist nome="trap leozin/doka/vino" />
+        <MyPLaylist nome="sla qporré essa" />
       </nav>
 
     </aside>
