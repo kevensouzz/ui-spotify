@@ -1,11 +1,11 @@
 import ChevronButtons from "./ChevronButtons";
-import User from "./user";
+import UserButton from "./userbutton";
 
 export default function Header() {
   return (
     <header className="flex items-center justify-between">
       <ChevronButtons />
-      <User />
+      <UserButton />
     </header>
   )
 }
