@@ -1,8 +1,8 @@
 import Sidebar from "./components/Sidebar"
 import Footer from "./components/Footer"
-import ChevronButtons from "./components/ChevronButtons"
 import Album from "./components/LatestSongs"
 import Playlist from "./components/Playlist"
+import Header from "./components/Header"
 
 
 export default function Home() {
@@ -12,7 +12,7 @@ export default function Home() {
         <Sidebar />
 
         <main className="flex-1 p-5">
-          <ChevronButtons />
+          <Header />
 
           <h1 className="font-semibold text-3xl mt-5">Last Songs You Heard</h1>
 
