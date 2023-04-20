@@ -28,13 +28,13 @@ export default function Home() {
           <h2 className="font-semibold text-2xl mt-8">Made For You</h2>
 
           <div className="grid grid-cols-7 gap-4 mt-4">
-            <Playlist image={"/musics/neonblade.jpeg"} alt={"phonkhouse"} nome={"phonkhouse"} user={"macelinh201625"} />
-            <Playlist image={"/musics/afterdark.jpeg"} alt={"AESTHETICS"} nome={"AESTHETICS"} user={"K1ng4sth3tics"} />
-            <Playlist image={"/musics/cha.jpeg"} alt={"aql vibezinha"} nome={"aql vibezinha"} user={"manosemnome123"} />
-            <Playlist image={"/musics/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
-            <Playlist image={"/musics/bandoleiro.jpeg"} alt={"\")"} nome={"\")"} user={"lilSkay88"} />
-            <Playlist image={"/musics/chegadefalardeice.jpeg"} alt={"slowmo"} nome={"slowmo"} user={"artz7"} />
-            <Playlist image={"/musics/midnight.jpeg"} alt={"light weight baby!"} nome={"light weight baby!"} user={"mano dos veneno"} />
+            <Playlist image={"/neonblade.jpeg"} alt={"phonkhouse"} nome={"phonkhouse"} user={"macelinh201625"} />
+            <Playlist image={"/afterdark.jpeg"} alt={"AESTHETICS"} nome={"AESTHETICS"} user={"K1ng4sth3tics"} />
+            <Playlist image={"/cha.jpeg"} alt={"aql vibezinha"} nome={"aql vibezinha"} user={"manosemnome123"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/bandoleiro.jpeg"} alt={"\")"} nome={"\")"} user={"lilSkay88"} />
+            <Playlist image={"/chegadefalardeice.jpeg"} alt={"slowmo"} nome={"slowmo"} user={"artz7"} />
+            <Playlist image={"/midnight.jpeg"} alt={"light weight baby!"} nome={"light weight baby!"} user={"mano dos veneno"} />
           </div>
         </main>
       </div>
