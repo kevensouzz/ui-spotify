@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Album(prop: { name: string; artist: string; image: string; alt: string}) {
   return (
-    <a href="#" className="bg-white/5 group rounded flex items-center gap-2 overflow-hidden hover:bg-white/10 transition-colors">
+    <a href="" className="bg-black/50 group rounded flex items-center gap-2 overflow-hidden hover:bg-black/75 transition-colors">
       <Image src={prop.image} alt={prop.alt} width={75} height={75} />
       <div className="flex flex-col">
         <strong className="text-sm">{prop.name}</strong>
