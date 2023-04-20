@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-zinc-950 border-t border-zinc-900 px-5 py-1 flex items-center justify-between">
+    <footer className="bg-zinc-950 px-5 py-1 flex items-center justify-between">
 
       <div className="flex items-center gap-2">
         <Image src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={36} height={36} />
