@@ -5,8 +5,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-zinc-950 px-5 py-1 flex items-center justify-between">
-
+    <footer className="bg-zinc-900 px-5 py-1 flex items-center justify-between fixed bottom-0 left-0 right-0">
       <div className="flex items-center gap-2">
         <Image src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={36} height={36} />
         <div className="flex flex-col">
@@ -20,7 +19,7 @@ export default function Footer() {
           <Shuffle size={18} className="text-zinc-200" />
           <SkipBack size={18} className="text-zinc-200" />
           <button className="w-6 h-6 flex items-center justify-center rounded-full bg-white text-black">
-          <Play size={18} weight="fill" />
+            <Play size={18} weight="fill" />
           </button>
           <SkipForward size={18} className="text-zinc-200" />
           <Repeat size={18} className="text-zinc-200" />

@@ -4,10 +4,11 @@ import Album from "./components/LatestSongs"
 import Playlist from "./components/Playlist"
 import Header from "./components/Header"
 
+import "./css/app.css"
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-t from-black to-green-900 max-w-[1920px] mx-auto h-screen flex flex-col">
+    <div className="min-h-screen mx-auto flex flex-col">
       <div className="flex flex-1">
         <Sidebar />
 
@@ -27,10 +28,24 @@ export default function Home() {
 
           <h2 className="font-semibold text-2xl mt-8">Made For You</h2>
 
-          <div className="grid grid-cols-7 gap-4 mt-4">
+          <div className="grid grid-cols-7 gap-4 mt-4 mb-10">
             <Playlist image={"/neonblade.jpeg"} alt={"phonkhouse"} nome={"phonkhouse"} user={"macelinh201625"} />
             <Playlist image={"/afterdark.jpeg"} alt={"AESTHETICS"} nome={"AESTHETICS"} user={"K1ng4sth3tics"} />
             <Playlist image={"/cha.jpeg"} alt={"aql vibezinha"} nome={"aql vibezinha"} user={"manosemnome123"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
+            <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
             <Playlist image={"/limbo.jpeg"} alt={"GYMMM"} nome={"GYMM"} user={"ZyzZ"} />
             <Playlist image={"/bandoleiro.jpeg"} alt={"\")"} nome={"\")"} user={"lilSkay88"} />
             <Playlist image={"/chegadefalardeice.jpeg"} alt={"slowmo"} nome={"slowmo"} user={"artz7"} />
