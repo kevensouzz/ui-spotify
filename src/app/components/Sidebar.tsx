@@ -1,4 +1,4 @@
-import { HomeIcon, Search, Library, BookmarkPlus, Heart } from "lucide-react";
+import { HomeIcon, Search, Library, BookmarkPlus, Heart, Compass } from "lucide-react";
 import MyPLaylist from "./MyPlaylist";
 
 export default function Sidebar() {
@@ -16,6 +16,10 @@ export default function Sidebar() {
         <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
           <Library size={18} />
           Your Library
+        </a>
+        <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
+          <Compass size={18} />
+          Explore
         </a>
       </nav>
 
