@@ -2,9 +2,9 @@ import Image from "next/image"
 
 export default function Logo() {
   return (
-      <div className="flex gap-1">
+      <a href="" className="flex gap-1">
         <Image src={"/favicon-32x32.png"} alt={"Spotify's logo"} width={32} height={32} />
         <h1 className="font-semibold text-2xl">SPOTIFY</h1>
-      </div>
+      </a>
   )
 }
