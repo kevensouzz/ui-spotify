@@ -3,7 +3,7 @@ import MyPLaylist from "./MyPlaylist";
 
 export default function Sidebar() {
   return (
-    <aside className="w-72 p-6">
+    <aside className="w-60 p-6">
       <nav className="space-y-4">
         <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200">
           <HomeIcon size={18} />
