@@ -7,7 +7,7 @@ import Header from "./components/Header"
 
 export default function Home() {
   return (
-    <div className="max-w-[2560px] mx-auto h-screen flex flex-col">
+    <div className="bg-gradient-to-t from-black to-green-900 max-w-[1920px] mx-auto h-screen flex flex-col">
       <div className="flex flex-1">
         <Sidebar />
 
