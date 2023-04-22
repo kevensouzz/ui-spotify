@@ -10,4 +10,4 @@ Interface de usuário do twitter desenvolvida com ReactJs e TypeScript.
 
 ## Ferramentas 📌
 
-NextJS | TypeScript | TaiwlindCSS | SCSS
+NextJS | TypeScript | TailwindCSS | SCSS
