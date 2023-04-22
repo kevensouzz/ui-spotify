@@ -1,6 +1,6 @@
 ## UI Spotify
 
-Interface de usuário do twitter desenvolvida com ReactJs e TypeScript.
+Interface de usuário do Spotify desenvolvida com NextJs e TailwindCSS.
 
 <div align="center">
 
