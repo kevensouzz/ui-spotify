@@ -1,6 +1,6 @@
 ## UI Spotify
 
-Interface de usuário do Spotify desenvolvida com NextJs e TailwindCSS.
+Interface de usuário do Spotify desenvolvida com NextJS e TailwindCSS.
 
 <div align="center">
 
