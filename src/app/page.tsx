@@ -3,9 +3,9 @@ import Footer from "./components/Footer"
 import Album from "./components/LatestSongs"
 import Playlist from "./components/Playlist"
 import Header from "./components/Header"
+import Topic from "./components/Topic"
 
 import "./css/app.css"
-import Topic from "./components/Topic"
 
 export default function Home() {
   return (
