@@ -37,6 +37,7 @@ export default function Sidebar() {
           <MyPLaylist nome="PHONK ESTRALANDO" />
           <MyPLaylist nome="trap leozin/doka/vino" />
           <MyPLaylist nome="sla qporré essa" />
+          <MyPLaylist nome="ryu, THE RUNNEERRR!" />
         </nav>
       </nav>
 
