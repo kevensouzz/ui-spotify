@@ -6,7 +6,7 @@ export default function Sidebar() {
     <aside className="w-60 p-6 max-laptop:w-10 max-laptop:p-5 max-laptop:flex flex-col justify-center">
       <nav className="fixed overflow-hidden">
         <nav className="space-y-4">
-          <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200 max-laptop:w-5">
+          <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200 max-laptop:w-5 max-laptop:text-white">
             <HomeIcon size={18} />
             <p className="max-laptop:hidden">Home</p>
           </a>
