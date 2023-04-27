@@ -10,25 +10,25 @@ export default function Sidebar() {
             <HomeIcon size={18} />
             <p className="max-laptop:hidden">Home</p>
           </a>
-          <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200 max-laptop:w-5">
+          <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200 max-laptop:w-5 max-laptop:text-white">
             <Search size={18} />
             <p className="max-laptop:hidden">Search</p>
           </a>
-          <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200 max-laptop:w-5">
+          <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200 max-laptop:w-5 max-laptop:text-white">
             <Library size={18} />
             <p className="max-laptop:hidden">Your Library</p>
           </a>
-          <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200 max-laptop:w-5">
+          <a href="" className="flex items-center gap-3 text-sm font-semibold text-zinc-200 max-laptop:w-5 max-laptop:text-white">
             <Compass size={18} />
             <p className="max-laptop:hidden">Explore</p>
           </a>
         </nav>
         <div className="flex flex-col gap-3 mt-8 text-sm font-semibold">
-          <a href="" className="flex gap-3 text-zinc-200 max-laptop:w-5">
+          <a href="" className="flex gap-3 text-zinc-200 max-laptop:w-5 max-laptop:text-white">
             <BookmarkPlus size={18} />
             <p className="max-laptop:hidden">Create Playlist</p>
           </a>
-          <a href="" className="flex gap-3 text-zinc-200 max-laptop:w-5">
+          <a href="" className="flex gap-3 text-zinc-200 max-laptop:w-5 max-laptop:text-white">
             <Heart size={18} />
             <p className="max-laptop:hidden">Liked Songs</p>
           </a>
