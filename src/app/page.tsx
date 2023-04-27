@@ -5,8 +5,6 @@ import Playlist from "./components/Playlist"
 import Header from "./components/Header"
 import Topic from "./components/Topic"
 
-import "./css/app.css"
-
 export default function Home() {
   return (
     <div className="min-h-screen mx-auto flex flex-col">
