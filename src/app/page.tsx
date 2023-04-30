@@ -7,16 +7,24 @@ import Topic from "./components/Topic"
 
 export default function Home() {
   return (
-    <div className="min-h-screen mx-auto flex flex-col">
-      <div className="flex flex-1">
+    <div className={
+        `min-h-screen mx-auto flex flex-col
+      `}>
+      <div className={`
+        flex flex-1
+      `}>
         <Sidebar />
 
-        <main className="flex-1 p-5">
+        <main className={`
+          flex-1 p-5
+        `}>
           <Header />
 
           <Topic text="Listen Again" />
 
-          <div className="grid grid-cols-3 gap-4">
+          <div className={`
+            grid grid-cols-3 gap-4
+          `}>
             <Album name="Smells Like Teen Spirit" image={"/nevermind.jpg"} alt={"Smells Like Teen Spirit"} artist={"Nirvana"} />
             <Album name="Something In The Way" image={"/nevermind.jpg"} alt={"Something In The Way"} artist={"Nirvana"} />
             <Album name="Loverboy" image={"/loverboy.jpg"} alt={"Loverboy"} artist={"A-Wall"} />
@@ -27,7 +35,9 @@ export default function Home() {
 
           <Topic text="Made For You" />
 
-          <div className="grid grid-cols-7 gap-4 mb-10">
+          <div className={`
+            grid grid-cols-7 gap-4 mb-10
+          `}>
             <Playlist image={"/neonblade.jpeg"} alt={"phonkhouse"} nome={"phonkhouse"} user={"macelinh201625"} />
             <Playlist image={"/afterdark.jpeg"} alt={"AESTHETICS"} nome={"AESTHETICS"} user={"K1ng4sth3tics"} />
             <Playlist image={"/cha.jpeg"} alt={"aql vibezinha"} nome={"aql vibezinha"} user={"manosemnome123"} />
