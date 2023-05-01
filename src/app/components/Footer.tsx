@@ -56,33 +56,39 @@ export default function Footer() {
           max-[320px]:gap-1
         `}>
 
-          <Shuffle size={18} className={`
-            text-zinc-200
-            max-[375px]:hidden
-          `} />
-          <SkipBack size={18} className={`
-            text-zinc-200
-            max-[320px]:w-3 max-[320px]:h-3
-          `} />
+            <Shuffle size={18} className={`
+              text-zinc-200
+              max-[375px]:hidden
+            `} />
+            <SkipBack size={18} className={`
+              text-zinc-200
+            `} 
+          />
+
           <button className={`
             w-6 h-6
             flex items-center justify-center
             rounded-full
             bg-white text-black
-            max-[320px]:w-5 max-[320px]:h-5
+            max-[425px]:hidden
           `}>
-            <Play size={18} weight="fill" className={`
-            max-[320px]:w-3 max-[320px]:h-3
-            `} />
+              <Play size={18} weight="fill" />
           </button>
-          <SkipForward size={18} className={`
-            text-zinc-200
-            max-[320px]:w-3 max-[320px]:h-3
+
+          <Play size={18} weight="fill" className={`
+            hidden
+            max-[425px]:block
           `} />
-          <Repeat size={18} className={`
-            text-zinc-200
-            max-[375px]:hidden
-          `} />
+
+            <SkipForward size={18} className={`
+              text-zinc-200
+            `} />
+
+            <Repeat size={18} className={`
+              text-zinc-200
+              max-[375px]:hidden
+            `}
+          />
 
         </div>
 
