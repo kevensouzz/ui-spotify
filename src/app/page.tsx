@@ -24,6 +24,7 @@ export default function Home() {
 
           <div className={`
             grid grid-cols-3 gap-4
+            max-lg:grid-cols-2
           `}>
             <Album name="Smells Like Teen Spirit" image={"/nevermind.jpg"} alt={"Smells Like Teen Spirit"} artist={"Nirvana"} />
             <Album name="Something In The Way" image={"/nevermind.jpg"} alt={"Something In The Way"} artist={"Nirvana"} />
@@ -37,6 +38,7 @@ export default function Home() {
 
           <div className={`
             grid grid-cols-7 gap-4 mb-10
+            max-lg:grid-cols-4
           `}>
             <Playlist image={"/neonblade.jpeg"} alt={"phonkhouse"} nome={"phonkhouse"} user={"macelinh201625"} />
             <Playlist image={"/afterdark.jpeg"} alt={"AESTHETICS"} nome={"AESTHETICS"} user={"K1ng4sth3tics"} />

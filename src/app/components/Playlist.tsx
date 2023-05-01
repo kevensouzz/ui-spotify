@@ -11,7 +11,7 @@ export default function Playlist(prop: playlistProps) {
   return (
     <a href="" className={`
       bg-black/50 hover:bg-black/75
-      rounded-md p-2 gap-1 
+      rounded-md p-2 gap-1 overflow-hidden
       flex flex-col
     `}>
       <Image className={`
