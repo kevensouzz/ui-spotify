@@ -56,13 +56,13 @@ export default function Footer() {
           max-[320px]:gap-1
         `}>
 
-            <Shuffle size={18} className={`
+          <Shuffle size={18} className={`
               text-zinc-200
               max-[375px]:hidden
             `} />
-            <SkipBack size={18} className={`
+          <SkipBack size={18} className={`
               text-zinc-200
-            `} 
+            `}
           />
 
           <button className={`
@@ -72,7 +72,7 @@ export default function Footer() {
             bg-white text-black
             max-[425px]:hidden
           `}>
-              <Play size={18} weight="fill" />
+            <Play size={18} weight="fill" />
           </button>
 
           <Play size={18} weight="fill" className={`
@@ -80,11 +80,11 @@ export default function Footer() {
             max-[425px]:block
           `} />
 
-            <SkipForward size={18} className={`
+          <SkipForward size={18} className={`
               text-zinc-200
             `} />
 
-            <Repeat size={18} className={`
+          <Repeat size={18} className={`
               text-zinc-200
               max-[375px]:hidden
             `}
