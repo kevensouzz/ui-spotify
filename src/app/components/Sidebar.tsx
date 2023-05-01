@@ -4,8 +4,9 @@ import MyPLaylist from "./MyPlaylist";
 export default function Sidebar() {
   return (
     <aside className={`
-      w-60 p-6
-      max-laptop:w-10 max-laptop:p-5 max-laptop:flex flex-col justify-center
+      w-48 p-6 my-3
+      max-laptop:w-10 max-laptop:p-5
+      max-laptop:flex flex-col
     `}>
 
       <nav className={`
@@ -17,12 +18,12 @@ export default function Sidebar() {
         `}>
 
           <a href="" className={`
-            flex items-center gap-3
-            text-sm font-semibold text-zinc-200
+            flex items-center gap-2
+            text-base font-semibold text-zinc-200
             max-laptop:w-5 max-laptop:text-white
           `}>
 
-            <HomeIcon size={18} />
+            <HomeIcon size={20} />
             <p className={`
               max-laptop:hidden
             `}>Home</p>
@@ -30,12 +31,12 @@ export default function Sidebar() {
           </a>
 
           <a href="" className={`
-            flex items-center gap-3
-            text-sm font-semibold text-zinc-200 
+            flex items-center gap-2
+            text-base font-semibold text-zinc-200 
             max-laptop:w-5 max-laptop:text-white
           `}>
 
-            <Search size={18} />
+            <Search size={20} />
             <p className={`
               max-laptop:hidden
             `}>Search</p>
@@ -43,25 +44,12 @@ export default function Sidebar() {
           </a>
 
           <a href="" className={`
-            flex items-center gap-3
-            text-sm font-semibold text-zinc-200 
+            flex items-center gap-2
+            text-base font-semibold text-zinc-200 
             max-laptop:w-5 max-laptop:text-white
           `}>
 
-            <Library size={18} />
-            <p className={`
-              max-laptop:hidden
-            `}>Your Library</p>
-
-          </a>
-
-          <a href="" className={`
-            flex items-center gap-3
-            text-sm font-semibold text-zinc-200 
-            max-laptop:w-5 max-laptop:text-white
-          `}>
-
-            <Compass size={18} />
+            <Compass size={20} />
             <p className={`
               max-laptop:hidden
             `}>Explore</p>
@@ -77,12 +65,25 @@ export default function Sidebar() {
         `}>
 
           <a href="" className={`
-            flex gap-3
-            text-zinc-200
+            flex items-center gap-2
+            text-base font-semibold text-zinc-200 
             max-laptop:w-5 max-laptop:text-white
           `}>
-            <BookmarkPlus size={18} />
 
+            <Library size={20} />
+            <p className={`
+              max-laptop:hidden
+            `}>Your Library</p>
+
+          </a>
+
+          <a href="" className={`
+            flex items-center gap-2
+            text-base font-semibold text-zinc-200 
+            max-laptop:w-5 max-laptop:text-white
+          `}>
+
+            <BookmarkPlus size={20} />
             <p className={`
               max-laptop:hidden
             `}>Create Playlist</p>
@@ -90,17 +91,17 @@ export default function Sidebar() {
           </a>
 
           <a href="" className={`
-            flex gap-3
-            text-zinc-200
+            flex items-center gap-2
+            text-base font-semibold text-zinc-200 
             max-laptop:w-5 max-laptop:text-white
           `}>
-            <Heart size={18} />
+
+            <Heart size={20} />
             <p className={`
               max-laptop:hidden
             `}>Liked Songs</p>
 
           </a>
-
         </div>
 
         <nav className={`
