@@ -9,6 +9,7 @@ export default function Footer() {
       bg-zinc-950 px-5 py-1
       flex items-center justify-between
       fixed bottom-0 left-0 right-0
+      max-lg:px-2
     `}>
 
       <div className={`
@@ -16,12 +17,14 @@ export default function Footer() {
       `}>
 
         <Image src={"/nevermind.jpg"} alt="capa do album Nevermind de Nirvana" width={36} height={36} />
+
         <div className={`
           flex flex-col
         `}>
 
           <strong className={`
             font-normal
+            max-lg:text-sm
           `}>Smells Like Teen Spirit</strong>
           <span className={`
             text-xs text-zinc-400
@@ -62,7 +65,7 @@ export default function Footer() {
         </div>
 
         <div className={`
-          flex items-center gap-2
+          flex items-center gap-2 max-lg:hidden
         `}>
 
           <span className={`
