@@ -58,7 +58,7 @@ export default function Footer() {
 
           <Shuffle size={18} className={`
             text-zinc-200
-            max-[320px]:w-3 max-[320px]:h-3
+            max-[375px]:hidden
           `} />
           <SkipBack size={18} className={`
             text-zinc-200
@@ -81,7 +81,7 @@ export default function Footer() {
           `} />
           <Repeat size={18} className={`
             text-zinc-200
-            max-[320px]:w-3 max-[320px]:h-3
+            max-[375px]:hidden
           `} />
 
         </div>
