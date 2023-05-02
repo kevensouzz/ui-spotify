@@ -10,6 +10,7 @@ export default function Topic(prop: {text: string;}) {
         <h1 className={`
           font-semibold text-3xl
           max-lg:text-2xl
+          max-[425px]:text-xl
         `}>{prop.text}</h1>
         <ChevronButtons />
       </div>
