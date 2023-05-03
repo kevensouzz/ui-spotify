@@ -9,7 +9,7 @@ export default function Header() {
     `}>
       <Logo />
       <div className={`
-        flex items-center gap-5
+        flex items-center gap-4
         max-[425px]:gap-3
         max-[375px]:gap-2
       `}>

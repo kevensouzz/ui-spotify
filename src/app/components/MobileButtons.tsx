@@ -5,7 +5,7 @@ import { Search } from "lucide-react";
 export default function () {
   return (
     <div className={`
-      hidden max-md:flex items-center gap-5
+      hidden max-md:flex items-center gap-4
       max-[425px]:gap-3
       max-[375px]:gap-2
     `}>
