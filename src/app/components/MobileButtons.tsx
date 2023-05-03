@@ -17,7 +17,7 @@ export default function () {
 
       <a href="" title="conect to a device">
         <Screencast size={28} className={`
-          max-[375px]:w-6 max-[375px]:h-6
+          max-[375px]:w-[25px] max-[375px]:h-[25px]
         `} />
       </a>
     </div>
