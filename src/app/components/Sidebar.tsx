@@ -7,7 +7,7 @@ export default function Sidebar() {
       w-48 p-6 my-3
       max-laptop:w-10 max-laptop:p-5
       max-laptop:flex flex-col
-      max-md:w-6 max-md:px-3
+      max-md:hidden
     `}>
 
       <nav className={`

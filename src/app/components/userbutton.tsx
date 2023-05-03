@@ -7,8 +7,12 @@ export default function UserButton() {
       bg-black/25
       rounded-full
       flex items-center justify-center
-      transition-colors hover:bg-black/60`}>
-      <User size={28} />
+      transition-colors hover:bg-black/60
+      max-[375px]:w-8 max-[375px]:h-8
+      `}>
+      <User size={28} className={`
+        max-[375px]:w-6 max-[375px]:h-6
+      `} />
     </a>
   )
 }

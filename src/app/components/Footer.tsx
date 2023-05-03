@@ -120,24 +120,35 @@ export default function Footer() {
         max-sm:hidden
       `}>
 
-        <Mic2 size={18} />
-        <LayoutList size={18} />
-        <Laptop2 size={18} />
+        <Mic2 size={18} className={`
+          max-md:hidden
+        `} />
+        <LayoutList size={18} className={`
+          max-md:hidden
+        `} />
+        <Laptop2 size={18} className={`
+          max-md:hidden
+        `} />
         <div className={`
           flex items-center gap-2
+          max-md:mr-3
         `}>
 
           <Volume2 size={18} />
           <div className={`
             rounded-full w-20 bg-zinc-600
+            max-md:w-32
           `}>
             <div className={`
               bg-zinc-200 w-20 h-1 rounded-full
+              max-md:w-32
             `}></div>
           </div>
         </div>
 
-        <Maximize2 size={18} />
+        <Maximize2 size={18} className={`
+          max-md:hidden
+        `} />
       </div>
     </footer>
   )
