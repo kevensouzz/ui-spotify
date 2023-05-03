@@ -25,6 +25,7 @@ export default function Home() {
           <div className={`
             grid grid-cols-3 gap-4
             max-lg:grid-cols-2
+            max-[475px]:grid-cols-1
           `}>
             <Album name="Smells Like Teen Spirit" image={"/nevermind.jpg"} alt={"Smells Like Teen Spirit"} artist={"Nirvana"} />
             <Album name="Something In The Way" image={"/nevermind.jpg"} alt={"Something In The Way"} artist={"Nirvana"} />

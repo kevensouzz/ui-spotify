@@ -9,6 +9,9 @@ module.exports = {
     extend: {
       screens: {
         laptop: "1200px"
+      },
+      fontSize: {
+        exs: "0.675rem"
       }
     }
   },
