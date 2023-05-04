@@ -7,8 +7,8 @@ import Topic from "./components/Topic"
 
 export default function Home() {
   return (
-    <div className={
-        `min-h-screen mx-auto flex flex-col
+    <div className={`
+        min-h-screen mx-auto flex flex-col
       `}>
       <div className={`
         flex flex-1
