@@ -1,6 +1,11 @@
 import ChevronButtons from "./ChevronButtons";
 
-export default function Topic(prop: {text: string;}) {
+interface propType {
+  text: string
+  renderButtons?: boolean
+}
+
+export default function Topic(prop: propType) {
   return (
       <div className={`
         flex items-center justify-between
@@ -12,7 +17,7 @@ export default function Topic(prop: {text: string;}) {
           max-lg:text-2xl
           max-[425px]:text-xl
         `}>{prop.text}</h1>
-        <ChevronButtons />
+        {prop.renderButtons == true ? <ChevronButtons/> : null}
       </div>
   )
 }

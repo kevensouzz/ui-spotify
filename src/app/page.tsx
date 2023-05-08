@@ -20,7 +20,7 @@ export default function Home() {
         `}>
           <Header />
 
-          <Topic text="Listen Again" />
+          <Topic text="Listen Again" renderButtons />
 
           <div className={`
             grid grid-cols-3 gap-4
