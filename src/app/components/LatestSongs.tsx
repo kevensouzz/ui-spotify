@@ -47,6 +47,7 @@ export default function Album(prop: albumProps) {
         max-md:hidden
         max-[475px]:flex max-[475px]:mr-3
         max-[475px]:w-6 max-[475px]:h-6
+        max-[475px]:visible
         max-[375px]:hidden
       `}>
         <Play size={22} weight="fill" className={`
