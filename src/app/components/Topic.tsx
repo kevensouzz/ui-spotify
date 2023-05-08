@@ -17,7 +17,7 @@ export default function Topic(prop: propType) {
           max-lg:text-2xl
           max-[425px]:text-xl
         `}>{prop.text}</h1>
-        {prop.renderButtons == true ? <ChevronButtons/> : null}
+        {prop.renderButtons ? <ChevronButtons/> : null}
       </div>
   )
 }
