@@ -10,4 +10,4 @@ Interface de usuário do Spotify desenvolvida com NextJS e TailwindCSS.
 
 ## Ferramentas 📌
 
-NextJS | TypeScript | TailwindCSS | SCSS
+NextJS | TypeScript | TailwindCSS
